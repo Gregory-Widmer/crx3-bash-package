@@ -194,7 +194,7 @@ VERSION_CRX_HEX="03 00 00 00"
 
 inputFolder=$1
 privateKey=$2
-outputFile="${4:-extension.crx}"
+outputFile="${3:-extension.crx}"
 
 # First : Zip data
 trap 'rm -f tmp.zip' EXIT
